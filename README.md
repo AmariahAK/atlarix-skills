@@ -8,6 +8,14 @@ Community skill registry for the **Atlarix** desktop AI coding environment.
 ## What is this?
 This repository is the community skill registry for Atlarix. Skills teach Atlarix agents language patterns, framework conventions, and workflow automation **without bloating every session’s context**.
 
+## Latest Releases
+
+Get the latest Atlarix desktop app builds at:
+
+👉 **[github.com/AmariahAK/atlarix-releases](https://github.com/AmariahAK/atlarix-releases)**
+
+Skills in this registry are available in the Skills Marketplace inside Atlarix (Settings → Skills).
+
 ## Available skills
 
 | Skill | Description | Compatible Modes | Version |
