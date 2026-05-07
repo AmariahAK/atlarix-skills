@@ -43,10 +43,5 @@ See [`CONTRIBUTING.md`](CONTRIBUTING.md). In short:
 - Add an entry to `index.json`
 - Open a PR
 
-## Registry URL
-Use this URL for custom/self-hosted Atlarix instances:
-
-`https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/index.json`
-
 ## License
 Apache 2.0. See [`LICENSE`](LICENSE).
