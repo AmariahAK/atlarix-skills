@@ -1,0 +1,457 @@
+{
+  "version": "1.0.0",
+  "updatedAt": "2026-05-07",
+  "skills": [
+    {
+      "id": "react",
+      "name": "React Component Patterns",
+      "description": "Patterns for building React components, hooks, and context providers. Covers functional components, custom hooks, performance patterns, and common anti-patterns to avoid.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["react", "frontend", "components", "hooks", "typescript"],
+      "compatibleModes": ["Build", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/react/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "nextjs",
+      "name": "Next.js App Patterns",
+      "description": "Patterns for Next.js 14+ App Router projects. Covers server vs client components, data fetching, routing, API routes, and deployment considerations.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["nextjs", "react", "fullstack", "app-router", "typescript"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/nextjs/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "python",
+      "name": "Python Patterns",
+      "description": "Python best practices for modern projects. Covers typing, async patterns, package structure, virtual environments, and common stdlib usage.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["python", "backend", "async", "typing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/python/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "typescript",
+      "name": "TypeScript Patterns",
+      "description": "TypeScript patterns for strict, production-grade codebases. Covers advanced types, generics, narrowing, module patterns, and tsconfig best practices.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["typescript", "types", "generics", "patterns"],
+      "compatibleModes": ["Build", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/typescript/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "git-workflow",
+      "name": "Git Workflow",
+      "description": "Git patterns for clean commit history, branching strategies, PR descriptions, and conflict resolution. Works with Atlarix's built-in git tools.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["git", "workflow", "commits", "branching", "pr"],
+      "compatibleModes": ["Ask", "Build", "Plan"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/git-workflow/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "test-writer",
+      "name": "Test Writer",
+      "description": "Patterns for writing unit, integration, and e2e tests. Covers Jest, Vitest, Pytest, and testing philosophy. Focuses on what to test and how to structure test files.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["testing", "jest", "vitest", "pytest", "tdd"],
+      "compatibleModes": ["Build", "Review"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/test-writer/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "database",
+      "name": "Database Patterns",
+      "description": "SQL and ORM patterns for use with Atlarix's Database Extension. Covers query optimisation, schema design, migrations, and safe db_mutate usage.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["database", "sql", "postgresql", "sqlite", "drizzle", "prisma"],
+      "compatibleModes": ["Build", "Debug", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/database/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "mcp-builder",
+      "name": "MCP Server Builder",
+      "description": "Patterns for building Model Context Protocol (MCP) servers. Covers tool definitions, resource handlers, transport setup, and testing MCP servers locally.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["mcp", "tools", "integrations", "typescript", "protocol"],
+      "compatibleModes": ["Build", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/mcp-builder/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "debug-nodejs",
+      "name": "Node.js Debugger",
+      "description": "Debugging patterns for Node.js and Bun runtimes. Covers reading stack traces, async error tracing, memory leaks, and using Atlarix's terminal tools effectively.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["nodejs", "bun", "debugging", "errors", "async"],
+      "compatibleModes": ["Debug"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/debug-nodejs/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "code-review",
+      "name": "Code Review",
+      "description": "Structured code review patterns for the Reviewer agent. Covers security, performance, readability, and correctness checklists tuned for production codebases.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["review", "quality", "security", "performance", "readability"],
+      "compatibleModes": ["Review"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/code-review/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "nodejs",
+      "name": "Node.js Patterns",
+      "description": "Practical patterns for Node.js services/CLIs: async boundaries, validation, logging, and safe operational defaults.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["nodejs", "backend", "typescript", "runtime", "tooling"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/nodejs/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "go",
+      "name": "Go Patterns",
+      "description": "Go best practices for services and CLIs. Covers errors, context propagation, package structure, and concurrency basics.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["go", "backend", "concurrency", "testing", "modules"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/go/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "rust",
+      "name": "Rust Patterns",
+      "description": "Rust patterns for maintainable crates and services. Covers error handling, module structure, ownership boundaries, and testing conventions.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["rust", "backend", "safety", "error-handling", "cargo"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/rust/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "ruby",
+      "name": "Ruby Patterns",
+      "description": "Ruby patterns for clean code organization, dependency management with Bundler, and testable design (Rails-aware where relevant).",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["ruby", "rails", "backend", "bundler", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/ruby/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "java",
+      "name": "Java Patterns",
+      "description": "Java patterns for layered services and libraries. Covers null handling, exceptions, layering, and testable structure in Maven/Gradle projects.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["java", "backend", "gradle", "maven", "spring", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/java/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "php",
+      "name": "PHP Patterns",
+      "description": "PHP patterns for modern PHP 8+ codebases. Covers typing, composer hygiene, boundary validation, and maintainable service design (Laravel-aware where relevant).",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["php", "backend", "composer", "laravel", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/php/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "dotnet",
+      "name": ".NET Patterns",
+      "description": ".NET patterns for layered applications. Covers async correctness, DI boundaries, configuration safety, and testing conventions.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["dotnet", "csharp", "backend", "aspnet", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/dotnet/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "deno",
+      "name": "Deno Patterns",
+      "description": "Deno runtime patterns with permission-aware execution, import map hygiene, and project structure conventions.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["deno", "typescript", "runtime", "tooling"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/deno/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "bun",
+      "name": "Bun Patterns",
+      "description": "Bun runtime patterns for dependable builds and debugging. Covers lockfile hygiene and runtime compatibility awareness.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["bun", "nodejs", "runtime", "tooling", "typescript"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/bun/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "swift",
+      "name": "Swift Patterns",
+      "description": "Swift patterns for SwiftPM packages and apps. Covers concurrency basics, value vs reference types, and testable structure.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["swift", "ios", "macos", "concurrency", "swiftpm"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/swift/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "elixir",
+      "name": "Elixir Patterns",
+      "description": "Elixir patterns for OTP-friendly structure, clean boundaries, and reliable testing (Phoenix-aware where relevant).",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["elixir", "phoenix", "otp", "concurrency", "mix"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/elixir/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "docker",
+      "name": "Docker Patterns",
+      "description": "Docker patterns for deterministic builds, minimal images, and practical container debugging.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["docker", "devops", "containers", "deployment", "compose"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/docker/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "kotlin",
+      "name": "Kotlin Patterns",
+      "description": "Kotlin JVM patterns focused on null-safety, coroutines, Gradle structure, and maintainable module boundaries.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["kotlin", "backend", "gradle", "coroutines", "jvm"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/kotlin/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "csharp",
+      "name": "C# Patterns",
+      "description": "C# patterns for async correctness, layering, exception safety, and testable dependency injection in .NET applications.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["csharp", "dotnet", "backend", "aspnet", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/csharp/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "express-fastify",
+      "name": "Express/Fastify Backend Patterns",
+      "description": "Backend patterns for Express and Fastify APIs. Covers boundary validation, layering, centralized error handling, and timeouts.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["nodejs", "express", "fastify", "backend", "api", "validation"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/express-fastify/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "django",
+      "name": "Django Patterns",
+      "description": "Django patterns for safe models, migration hygiene, and query performance. Emphasizes avoiding N+1 queries and keeping views thin.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["python", "django", "backend", "api", "orm", "testing"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/django/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "fastapi",
+      "name": "FastAPI Patterns",
+      "description": "FastAPI patterns for schema-first boundaries with Pydantic, async correctness, and testable dependency injection.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["python", "fastapi", "backend", "api", "pydantic", "async"],
+      "compatibleModes": ["Build", "Debug", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/fastapi/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "github-actions",
+      "name": "GitHub Actions CI Patterns",
+      "description": "Patterns for writing and debugging GitHub Actions workflows: least-privilege permissions, deterministic installs, caching, and useful logs.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["ci", "github-actions", "workflows", "automation", "devops"],
+      "compatibleModes": ["Build", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/github-actions/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "tailwind-css",
+      "name": "Tailwind CSS Patterns",
+      "description": "Tailwind patterns for maintainable styling: composition, variants, tokens, responsive layouts, and accessibility defaults.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["css", "tailwind", "ui", "frontend", "design-system"],
+      "compatibleModes": ["Build", "Review", "Ask"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/tailwind-css/SKILL.md"
+        }
+      ]
+    },
+    {
+      "id": "playwright-e2e",
+      "name": "Playwright E2E Testing",
+      "description": "Stable Playwright E2E patterns: resilient selectors, deterministic test data, auto-waiting assertions, and CI artifacts for debugging failures.",
+      "version": "1.0.0",
+      "author": "NorahLabs",
+      "tags": ["testing", "e2e", "playwright", "frontend", "web"],
+      "compatibleModes": ["Build", "Debug", "Review"],
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/playwright-e2e/SKILL.md"
+        }
+      ]
+    }
+  ]
+}
+

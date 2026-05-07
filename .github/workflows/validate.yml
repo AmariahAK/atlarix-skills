@@ -1,0 +1,59 @@
+name: Validate Registry
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Validate index.json is valid JSON
+        run: python3 -c "import json; json.load(open('index.json'))"
+
+      - name: Validate all skills in index.json have SKILL.md files
+        run: |
+          python3 -c "
+          import json, os, sys
+          index = json.load(open('index.json'))
+          errors = []
+          for skill in index['skills']:
+            path = f\"skills/{skill['id']}/SKILL.md\"
+            if not os.path.exists(path):
+              errors.append(f\"Missing: {path} (referenced by skill '{skill['id']}')\")
+            for f in skill['files']:
+              fname = f['name']
+              fpath = f\"skills/{skill['id']}/{fname}\"
+              if not os.path.exists(fpath):
+                errors.append(f\"Missing file: {fpath}\")
+          if errors:
+            print('Validation failed:')
+            for e in errors: print(f'  - {e}')
+            sys.exit(1)
+          print(f'✓ All {len(index[\"skills\"])} skills validated')
+          "
+
+      - name: Check all SKILL.md files have required frontmatter
+        run: |
+          python3 -c "
+          import os, sys
+          required = ['name:', 'version:', 'author:', 'tags:', 'compatibleModes:']
+          errors = []
+          for root, dirs, files in os.walk('skills'):
+            for f in files:
+              if f == 'SKILL.md':
+                content = open(os.path.join(root, f)).read()
+                for field in required:
+                  if field not in content:
+                    errors.append(f'{os.path.join(root, f)}: missing {field}')
+          if errors:
+            print('Frontmatter validation failed:')
+            for e in errors: print(f'  - {e}')
+            sys.exit(1)
+          print('✓ All SKILL.md files have required frontmatter')
+          "
+
