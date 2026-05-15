@@ -8,13 +8,17 @@ Community skill registry for the **Atlarix** desktop AI coding environment.
 ## What is this?
 This repository is the community skill registry for Atlarix. Skills teach Atlarix agents language patterns, framework conventions, and workflow automation **without bloating every session’s context**.
 
-## Latest Releases
+## Latest releases
 
-Get the latest Atlarix desktop app builds at:
+Download the desktop app from **[github.com/AmariahAK/atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** (macOS / Linux builds; Windows when published).
 
-👉 **[github.com/AmariahAK/atlarix-releases](https://github.com/AmariahAK/atlarix-releases)**
+## Related open-source repos
 
-Skills in this registry are available in the Skills Marketplace inside Atlarix (Settings → Skills).
+- **[atlarix-mcps](https://github.com/AmariahAK/atlarix-mcps)** — auto-synced MCP marketplace index (`index.json`) for Atlarix (**Pro / Workforce** marketplace installs).
+- **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — official installers and auto-update metadata.
+- **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application repository (proprietary); product site [atlarix.dev](https://atlarix.dev).
+
+---
 
 ## Available skills
 
@@ -36,7 +40,7 @@ Additional skills are listed in [`index.json`](index.json).
 ## Installing skills
 
 ### In-app (recommended)
-Settings → Skills → Browse → Install
+Settings → Skills → Browse → Install (**requires Pro or Workforce**).
 
 ### Manual
 Copy a skill into your workspace:
