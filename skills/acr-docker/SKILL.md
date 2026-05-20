@@ -1,0 +1,55 @@
+---
+name: Docker production rules
+version: 1.0.0
+author: community
+tags: [cursorrules, docker, community]
+compatibleModes: [Build, Review, Ask]
+atlarixMinVersion: "7.0.0"
+---
+
+# Docker production rules
+
+## When to use this skill
+Docker production rules. Pinned versions, multi-stage builds, non-root user, minimal attack surface.
+
+## Source
+Synced from https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/docker.mdc.
+
+# Docker Rules
+
+Expert Docker practitioner. Minimal, secure, reproducible images.
+
+## Dockerfile
+- Pin versions: FROM node:20.11-alpine3.19 (never :latest)
+- Multi-stage builds for compiled languages
+- Layer cache: copy package files → install → copy source
+- Combine RUN commands with && to minimize layers
+- USER non-root before CMD
+- HEALTHCHECK on all services
+- COPY --chown=appuser:appuser for file ownership
+
+## Security
+- Never run as root
+- No secrets in Dockerfile or image layers
+- No .env files copied into image
+- Scan with docker scout or trivy in CI
+
+## .dockerignore
+- Always present: node_modules, .git, *.log, .env*, test files
+
+## Volumes
+- Named volumes for persistence
+- Bind mounts for dev only, never production
+
+## Networking
+- Custom bridge networks, not host networking
+- Reference services by name in compose
+
+## Logging
+- Always stdout/stderr — never log to files inside container
+
+## Forbidden
+- No :latest tags in production
+- No ADD when COPY works
+- No root user in production
+- No secrets in build args or image layers

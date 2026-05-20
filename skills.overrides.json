@@ -1,0 +1,154 @@
+{
+  "skills": {
+    "react": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "nextjs": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "python": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "typescript": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "git-workflow": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "test-writer": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "database": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "mcp-builder": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "debug-nodejs": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "code-review": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "nodejs": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "go": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "rust": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "ruby": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "java": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "php": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "dotnet": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "deno": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "bun": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "swift": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "elixir": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "docker": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "kotlin": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "csharp": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "express-fastify": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "django": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "fastapi": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "github-actions": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "tailwind-css": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    },
+    "playwright-e2e": {
+      "verified": true,
+      "needsReview": false,
+      "author": "NorahLabs"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+  "registryOwner": "AmariahAK",
+  "registryRepo": "atlarix-skills",
+  "registryBranch": "main",
+  "minBodyLength": 100,
+  "maxPerSource": 120,
+  "sources": {
+    "awesome-cursorrules": {
+      "enabled": true,
+      "owner": "PatrickJS",
+      "repo": "awesome-cursorrules",
+      "path": "rules",
+      "idPrefix": "acr"
+    },
+    "fabric": {
+      "enabled": true,
+      "owner": "danielmiessler",
+      "repo": "fabric",
+      "patternsPath": "data/patterns",
+      "idPrefix": "fabric",
+      "nameInclude": ["code", "review", "debug", "program", "engineer", "design", "tech"]
+    },
+    "cursor-directory": {
+      "enabled": false,
+      "note": "pontusab/cursor.directory stores rules in Supabase, not as files in git — enable when an export API exists"
+    }
+  }
+}

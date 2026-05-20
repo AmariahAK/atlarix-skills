@@ -1,0 +1,13 @@
+{
+  "name": "atlarix-skills",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "sync": "node scripts/sync.mjs",
+    "sync:dry-run": "node scripts/sync.mjs --dry-run",
+    "validate": "node scripts/validate.mjs"
+  }
+}
