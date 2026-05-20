@@ -15,6 +15,8 @@ Download the desktop app from **[github.com/AmariahAK/atlarix-releases](https://
 ## Related open-source repos
 
 - **[atlarix-mcps](https://github.com/AmariahAK/atlarix-mcps)** — auto-synced MCP marketplace index (`index.json`) for Atlarix (**Pro / Workforce** marketplace installs).
+
+This registry is **auto-synced** from community cursor-rule sources (see `scripts/sync.mjs`). Hand-curated NorahLabs skills under `skills/<id>/` without `.sync-source.json` are never overwritten.
 - **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — official installers and auto-update metadata.
 - **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application repository (proprietary); product site [atlarix.dev](https://atlarix.dev).
 

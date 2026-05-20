@@ -57,22 +57,32 @@ atlarixMinVersion: "7.0.0"
 3. Bump the matching `version` for that skill entry in `index.json`.
 4. In the PR description, explain what changed and why.
 
-### 6) `index.json` rules
+### 6) Auto-sync vs hand-curated skills
+
+- **Hand-curated:** `skills/<id>/SKILL.md` with **no** `.sync-source.json` — maintained via PR; never overwritten by `npm run sync`.
+- **Synced:** added by `scripts/sync.mjs` from upstream repos; includes `.sync-source.json`. Marked `needsReview: true` in `index.json`. Patch via `skills.overrides.json` (`exclude: true` to remove).
+
+```bash
+npm run sync:dry-run
+npm run sync
+```
+
+### 7) `index.json` rules
 - `id` must be **lowercase kebab-case** and match the folder name under `skills/`.
 - The `files[].url` must be the **raw GitHub URL** (not the repo page URL), e.g.:\n  `https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/<id>/SKILL.md`\n+- All fields in each skill entry are required.
 
-### 7) Review process
+### 8) Review process
 - Maintainers aim to review PRs within **7 days**.
 - Feedback is given via GitHub review comments.
 - Please respond to feedback and push updates in the same PR.
 
-### 8) What we won’t accept
+### 9) What we won’t accept
 - Skills that reference non-existent Atlarix tools.
 - Placeholder content (“TODO”, “lorem ipsum”, empty sections).
 - Duplicates of existing skills without clear differentiation.
 - Skills that are primarily marketing or vendor promotion.
 
-### 9) License
+### 10) License
 By contributing, you agree that your contributions are licensed under the
 **Apache 2.0** license (see `LICENSE`).
 
