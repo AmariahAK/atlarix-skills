@@ -20,6 +20,16 @@ This registry is **auto-synced** from community cursor-rule sources (see `script
 - **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — official installers and auto-update metadata.
 - **[AmariahAK/Atlarix](https://github.com/AmariahAK/Atlarix)** — application repository (proprietary); product site [atlarix.dev](https://atlarix.dev).
 
+## Research
+
+The context management approach behind Atlarix's Blueprint system is documented in a published technical paper:
+
+**Blueprint: Section-Scoped Structural Graph Retrieval and Post-Turn Compression for Agentic LLM Coding in Multi-Repository Workspaces**  
+Amariah Kamau, NorahLabs — May 2026  
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20381860.svg)](https://doi.org/10.5281/zenodo.20381860)
+
+The paper covers how Blueprint builds section-scoped structural graphs from ctags and ast-grep, how post-turn tool-result summarisation reduces history size, and benchmark results from a controlled multi-repository exploration task.
+
 ---
 
 ## Available skills
