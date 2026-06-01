@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-05-25",
+  "updatedAt": "2026-06-01",
   "skills": [
     {
       "id": "acr-ai-agent-specialist",
@@ -2415,6 +2415,31 @@
       ]
     },
     {
+      "id": "acr-network-troubleshoot",
+      "name": "Systematic, safety-first network troubleshooting for developers",
+      "description": "Systematic, safety-first network troubleshooting for developers",
+      "version": "1.0.0",
+      "author": "community",
+      "tags": [
+        "cursorrules",
+        "community"
+      ],
+      "compatibleModes": [
+        "Build",
+        "Review",
+        "Ask"
+      ],
+      "source": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/network-troubleshoot.mdc",
+      "verified": false,
+      "needsReview": true,
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/acr-network-troubleshoot/SKILL.md"
+        }
+      ]
+    },
+    {
       "id": "acr-next-type-llm",
       "name": "Cursor rules for Next",
       "description": "Cursor rules for Next.js development with Type LLM integration.",
@@ -3007,31 +3032,6 @@
         {
           "name": "SKILL.md",
           "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/acr-optimize-dry-solid-principles-cursorrules-prompt-f/SKILL.md"
-        }
-      ]
-    },
-    {
-      "id": "acr-optimize-rell-blockchain-code-cursorrules-prompt-f",
-      "name": "Cursor rules for optimization development with Rell Blockchain code integration",
-      "description": "Cursor rules for optimization development with Rell Blockchain code integration.",
-      "version": "1.0.0",
-      "author": "community",
-      "tags": [
-        "cursorrules",
-        "community"
-      ],
-      "compatibleModes": [
-        "Build",
-        "Review",
-        "Ask"
-      ],
-      "source": "https://github.com/PatrickJS/awesome-cursorrules/tree/main/rules/optimize-rell-blockchain-code-cursorrules-prompt-f.mdc",
-      "verified": false,
-      "needsReview": true,
-      "files": [
-        {
-          "name": "SKILL.md",
-          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/acr-optimize-rell-blockchain-code-cursorrules-prompt-f/SKILL.md"
         }
       ]
     },
