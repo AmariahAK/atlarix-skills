@@ -4147,6 +4147,36 @@
       "needsReview": false
     },
     {
+      "id": "tweetclaw-x-source-context",
+      "name": "TweetClaw X Source Context",
+      "description": "Use the TweetClaw OpenClaw plugin as X/Twitter source intake for search tweets, search replies, follower export, user lookup, media context, monitors, webhooks, giveaway draws, and approval-gated X/Twitter actions.",
+      "version": "1.0.0",
+      "author": "community",
+      "tags": [
+        "openclaw",
+        "tweetclaw",
+        "twitter",
+        "x",
+        "social",
+        "research"
+      ],
+      "compatibleModes": [
+        "Ask",
+        "Build",
+        "Plan",
+        "Review"
+      ],
+      "source": "https://github.com/Xquik-dev/tweetclaw",
+      "files": [
+        {
+          "name": "SKILL.md",
+          "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/tweetclaw-x-source-context/SKILL.md"
+        }
+      ],
+      "verified": false,
+      "needsReview": true
+    },
+    {
       "id": "typescript",
       "name": "TypeScript Patterns",
       "description": "TypeScript patterns for strict, production-grade codebases. Covers advanced types, generics, narrowing, module patterns, and tsconfig best practices.",
