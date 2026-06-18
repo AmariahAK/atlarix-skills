@@ -1,6 +1,6 @@
 {
   "version": "1.0.0",
-  "updatedAt": "2026-06-15",
+  "updatedAt": "2026-06-18",
   "skills": [
     {
       "id": "acr-ai-agent-specialist",
@@ -4173,8 +4173,8 @@
           "url": "https://raw.githubusercontent.com/AmariahAK/atlarix-skills/main/skills/tweetclaw-x-source-context/SKILL.md"
         }
       ],
-      "verified": false,
-      "needsReview": true
+      "verified": true,
+      "needsReview": false
     },
     {
       "id": "typescript",
