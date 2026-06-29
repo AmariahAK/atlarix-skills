@@ -30,6 +30,8 @@ Amariah Kamau, NorahLabs — May 2026
 
 The paper covers how Blueprint builds section-scoped structural graphs from ctags and ast-grep, how post-turn tool-result summarisation reduces history size, and benchmark results from a controlled multi-repository exploration task.
 
+**Harness benchmarks:** All Atlarix benchmark results — Terminal-Bench and the tests that follow — are published and kept current at [**atlarix.dev/benchmark**](https://atlarix.dev/benchmark), with raw result files, reproduction steps, and honest framing. That page is the canonical source as we benchmark across more open models over time.
+
 ---
 
 ## Available skills
