@@ -3,7 +3,7 @@ name: Prevent AI over-engineering by keeping changes scoped, simple, and directl
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

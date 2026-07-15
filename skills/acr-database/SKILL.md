@@ -3,7 +3,7 @@ name: Database best practices focusing on Prisma and Supabase integration
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

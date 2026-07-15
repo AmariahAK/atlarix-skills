@@ -3,7 +3,7 @@ name: Ankra CLI rules and best practices for managing Kubernetes clusters via th
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

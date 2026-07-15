@@ -3,7 +3,7 @@ name: Cursor rules for JavaScript and TypeScript development with code quality i
 version: 1.0.0
 author: community
 tags: [cursorrules, java, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

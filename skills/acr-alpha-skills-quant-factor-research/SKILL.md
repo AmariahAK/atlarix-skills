@@ -3,7 +3,7 @@ name: Quantitative factor research skills for Cursor
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

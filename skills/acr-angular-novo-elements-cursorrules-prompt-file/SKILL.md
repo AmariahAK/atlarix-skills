@@ -3,7 +3,7 @@ name: Cursor rules for Angular development with Novo Elements UI library
 version: 1.0.0
 author: community
 tags: [cursorrules, angular, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

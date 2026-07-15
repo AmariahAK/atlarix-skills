@@ -3,7 +3,7 @@ name: Cursor rules for Astro development with TypeScript integration
 version: 1.0.0
 author: community
 tags: [cursorrules, typescript, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

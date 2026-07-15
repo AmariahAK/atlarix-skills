@@ -3,7 +3,7 @@ name: KubeStellar Console — Multi-cluster Kubernetes dashboard development rul
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Cursor rules for Flutter development with MVVM architecture, Riverpod stat
 version: 1.0.0
 author: community
 tags: [cursorrules, flutter, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

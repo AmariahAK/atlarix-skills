@@ -3,7 +3,7 @@ name: FastAPI best practices and patterns for building modern Python web APIs
 version: 1.0.0
 author: community
 tags: [cursorrules, fastapi, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

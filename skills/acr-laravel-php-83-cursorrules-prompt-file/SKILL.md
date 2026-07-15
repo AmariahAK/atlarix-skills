@@ -3,7 +3,7 @@ name: Cursor rules for Laravel development with PHP 8
 version: 1.0.0
 author: community
 tags: [cursorrules, php, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Cursor rules for FastAPI services with router/service/repository boundarie
 version: 1.0.0
 author: community
 tags: [cursorrules, fastapi, community]
-compatibleModes: [Build, Review, Explore]
+compatibleModes: [Build, Review, Ask]
 atlarixMinVersion: "7.0.0"
 ---
 
