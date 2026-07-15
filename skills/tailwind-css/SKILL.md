@@ -3,7 +3,7 @@ name: Tailwind CSS Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [css, tailwind, ui, frontend, design-system]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -37,7 +37,7 @@ Checklist:
 - keep breakpoints consistent
 
 ## Atlarix tool notes
-- **Ask**: find Tailwind config and existing component patterns.
+- **Explore**: find Tailwind config and existing component patterns.
 - **Build**: keep styles close to components; avoid global CSS unless needed.
 - **Review**: check accessibility and consistency with design system.
 

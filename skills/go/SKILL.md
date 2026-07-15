@@ -3,7 +3,7 @@ name: Go Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [go, backend, concurrency, testing, modules]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -59,7 +59,7 @@ Patterns:
 - compare errors and output deterministically
 
 ## Atlarix tool notes
-- **Ask**: locate entry points under `cmd/` and critical packages under `internal/` with `search_code`.
+- **Explore**: locate entry points under `cmd/` and critical packages under `internal/` with `grep`/`glob`.
 - **Build**: make small edits and run `go test ./...`.
 - **Debug**: reproduce with `go test -run <name> -count=1` or run the binary with flags.
 - **Review**: check context cancellation, error wrapping, and package boundaries.

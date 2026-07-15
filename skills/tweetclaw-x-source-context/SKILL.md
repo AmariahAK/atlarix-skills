@@ -3,7 +3,7 @@ name: TweetClaw X Source Context
 version: 1.0.0
 author: community
 tags: [openclaw, tweetclaw, twitter, x, social, research]
-compatibleModes: [Ask, Build, Plan, Review]
+compatibleModes: [Explore, Build, Plan, Review]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -56,7 +56,7 @@ Treat plugin installs like running code. Install only when the user wants this p
 
 ### Read-only evidence flow
 For research, planning, review, and draft preparation:
-1. Use `search_code` and `read_file` to find the target project's social, content, campaign, support, or approval workflow.
+1. Use `grep`/`glob` and `read_file` to find the target project's social, content, campaign, support, or approval workflow.
 2. Identify where X/Twitter evidence belongs in that workflow.
 3. Use TweetClaw for source intake only.
 4. Return compact evidence with tweet IDs, URLs, handles, timestamps, metrics, excerpts, and uncertainty notes.
@@ -95,10 +95,10 @@ When another skill scores tweets, generates hooks, writes founder stories, or sc
 This separation prevents stale claims and keeps social-account actions in the approval surface that owns them.
 
 ## Atlarix tool notes
-- Use `search_code` to find existing README, workflow, `.agents/skills`, content calendar, approval, or social posting files before adding new instructions.
+- Use `grep`/`glob` to find existing README, workflow, `.agents/skills`, content calendar, approval, or social posting files before adding new instructions.
 - Use `read_file` to inspect the target's exact publish and approval language.
-- Use `write_file` only for narrow edits that preserve target style and policy.
-- Use Blueprint context to keep source evidence near the file or workflow that consumes it.
+- Use `edit_file` (or `write_file` for new files) only for narrow edits that preserve target style and policy.
+- Keep source evidence near the file or workflow that consumes it.
 - Use `run_command` for target-declared validators only. Do not create lockfiles or dependency artifacts just to validate a documentation-only change.
 
 When adding this skill to a project:

@@ -14,7 +14,7 @@ Download the desktop app from **[github.com/AmariahAK/atlarix-releases](https://
 
 ## Related open-source repos
 
-- **[atlarix-mcps](https://github.com/AmariahAK/atlarix-mcps)** — auto-synced MCP marketplace index (`index.json`) for Atlarix (**Pro / Workforce** marketplace installs).
+- **[atlarix-mcps](https://github.com/AmariahAK/atlarix-mcps)** — auto-synced MCP marketplace index (`index.json`) for Atlarix (Free installs 1 server; **Pro** unlimited).
 
 This registry is **auto-synced** from community cursor-rule sources (see `scripts/sync.mjs`). Hand-curated NorahLabs skills under `skills/<id>/` without `.sync-source.json` are never overwritten.
 - **[atlarix-releases](https://github.com/AmariahAK/atlarix-releases)** — official installers and auto-update metadata.
@@ -22,13 +22,13 @@ This registry is **auto-synced** from community cursor-rule sources (see `script
 
 ## Research
 
-The context management approach behind Atlarix's Blueprint system is documented in a published technical paper:
+The research behind Atlarix's context-management design is documented in a published technical paper:
 
 **Blueprint: Section-Scoped Structural Graph Retrieval and Post-Turn Compression for Agentic LLM Coding in Multi-Repository Workspaces**  
 Amariah Kamau, NorahLabs — May 2026  
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.20381860.svg)](https://doi.org/10.5281/zenodo.20381860)
 
-The paper covers how Blueprint builds section-scoped structural graphs from ctags and ast-grep, how post-turn tool-result summarisation reduces history size, and benchmark results from a controlled multi-repository exploration task.
+The paper studies section-scoped structural-graph retrieval and post-turn tool-result summarisation for keeping agent history small, with benchmark results from a controlled multi-repository exploration task. It's foundational research; the shipping app now uses bundled ripgrep for retrieval.
 
 **Harness benchmarks:** All Atlarix benchmark results — Terminal-Bench and the tests that follow — are published and kept current at [**atlarix.dev/benchmark**](https://atlarix.dev/benchmark), with raw result files, reproduction steps, and honest framing. That page is the canonical source as we benchmark across more open models over time.
 
@@ -54,7 +54,7 @@ Additional skills are listed in [`index.json`](index.json).
 ## Installing skills
 
 ### In-app (recommended)
-Settings → Skills → Browse → Install (**requires Pro or Workforce**).
+Settings → Skills → Browse → Install (**requires Pro**).
 
 ### Manual
 Copy a skill into your workspace:

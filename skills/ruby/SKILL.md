@@ -3,7 +3,7 @@ name: Ruby Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [ruby, rails, backend, bundler, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -38,7 +38,7 @@ Use this skill when working in Ruby projects (Rails or otherwise) and you want c
 - background jobs: idempotent and retry-safe
 
 ## Atlarix tool notes
-- **Ask**: locate `Gemfile`, `config/routes.rb`, and entry points.
+- **Explore**: locate `Gemfile`, `config/routes.rb`, and entry points.
 - **Build**: run `bundle install` and the project’s test suite.
 - **Debug**: follow stack traces; identify boundary errors.
 - **Review**: check for security issues (SQL injection, params handling) and N+1 queries.

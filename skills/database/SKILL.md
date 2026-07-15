@@ -3,7 +3,7 @@ name: Database Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [database, sql, postgresql, sqlite, drizzle, prisma, migrations]
-compatibleModes: [Build, Debug, Ask]
+compatibleModes: [Build, Debug, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -107,9 +107,9 @@ For large tables:
 - monitor locks
 
 ## Atlarix tool notes
-- Use `db_query` for reads and diagnostics.
-- Use `db_mutate` for writes only when you’re confident—`db_mutate` should require approval.
-- In Ask mode, reason about schema/queries without mutating.
+- Use `run_command` to run the project's database CLI or ORM for reads and diagnostics (e.g. `psql`, `sqlite3`, `prisma studio`).
+- Use `run_command` for writes (migrations, seeds) only when you’re confident—destructive statements still pause for approval.
+- In Explore mode, reason about schema/queries without mutating.
 
 When debugging:
 - start with a minimal repro query

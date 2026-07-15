@@ -3,7 +3,7 @@ name: Docker Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [docker, devops, containers, deployment, compose]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -45,7 +45,7 @@ Checklist:
 - inspect logs
 
 ## Atlarix tool notes
-- **Ask**: inspect `Dockerfile`, `docker-compose.yml`, and entrypoint scripts.
+- **Explore**: inspect `Dockerfile`, `docker-compose.yml`, and entrypoint scripts.
 - **Build**: run docker build/run commands and capture output.
 - **Debug**: reproduce locally with the smallest container steps; check logs first.
 - **Review**: verify secrets aren’t baked into images; check for overly-permissive settings.

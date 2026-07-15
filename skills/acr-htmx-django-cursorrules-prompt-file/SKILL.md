@@ -3,7 +3,7 @@ name: Cursor rules for HTMX development with Django integration
 version: 1.0.0
 author: community
 tags: [cursorrules, django, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

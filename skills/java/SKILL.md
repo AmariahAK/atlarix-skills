@@ -3,7 +3,7 @@ name: Java Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [java, backend, gradle, maven, spring, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -48,7 +48,7 @@ Patterns:
 - avoid heavy mocks; mock at boundaries
 
 ## Atlarix tool notes
-- **Ask**: identify build system (`pom.xml` vs `build.gradle`) and entry points.
+- **Explore**: identify build system (`pom.xml` vs `build.gradle`) and entry points.
 - **Build**: run `mvn test` or `gradle test` depending on project.
 - **Debug**: inspect stack traces; find first application frame.
 - **Review**: verify layering and that exceptions don’t leak secrets.

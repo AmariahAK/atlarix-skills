@@ -3,7 +3,7 @@ name: Docker production rules
 version: 1.0.0
 author: community
 tags: [cursorrules, docker, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Deno Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [deno, typescript, runtime, tooling]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -35,7 +35,7 @@ Common:
 - keep tests deterministic
 
 ## Atlarix tool notes
-- **Ask**: inspect `deno.json` and entrypoints; trace imports.
+- **Explore**: inspect `deno.json` and entrypoints; trace imports.
 - **Build**: run `deno test` and `deno fmt` if configured.
 - **Debug**: check permission errors first; they’re common.
 - **Review**: verify permission flags are minimal and documented.

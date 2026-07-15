@@ -3,7 +3,7 @@ name: Cursor rules for Laravel development with TALL Stack best practices
 version: 1.0.0
 author: community
 tags: [cursorrules, laravel, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Elixir Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [elixir, phoenix, otp, concurrency, mix]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -35,7 +35,7 @@ Prefer:
 - keep tests deterministic
 
 ## Atlarix tool notes
-- **Ask**: inspect `mix.exs` and `lib/` modules; locate supervision tree.
+- **Explore**: inspect `mix.exs` and `lib/` modules; locate supervision tree.
 - **Build**: run `mix test`.
 - **Debug**: inspect crash logs; confirm supervision restarts aren’t hiding repeated failures.
 - **Review**: check boundaries and that errors include enough context.

@@ -3,7 +3,7 @@ name: Bun Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [bun, nodejs, runtime, tooling, typescript]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -35,7 +35,7 @@ Avoid mixing `npm`/`yarn`/`pnpm` and `bun` unless the project explicitly support
 - if using Bun’s test runner, keep expectations consistent
 
 ## Atlarix tool notes
-- **Ask**: inspect `bun.lockb` and scripts; locate entrypoints.
+- **Explore**: inspect `bun.lockb` and scripts; locate entrypoints.
 - **Build**: run `bun install` and the relevant `bun run <script>`.
 - **Debug**: compare behavior in Node if the issue is unclear.
 - **Review**: ensure scripts and tooling are consistent and documented.

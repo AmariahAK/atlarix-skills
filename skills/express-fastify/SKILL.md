@@ -3,7 +3,7 @@ name: Express/Fastify Backend Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [nodejs, express, fastify, backend, api, validation]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -41,7 +41,7 @@ Rules:
 - basic metrics for request duration/error rates (if available)
 
 ## Atlarix tool notes
-- **Ask**: locate route registration and middleware order with `search_code`.
+- **Explore**: locate route registration and middleware order with `grep`/`glob`.
 - **Build**: make small edits; run API tests; keep handlers thin.
 - **Debug**: capture full error + stack; reproduce with a single curl/HTTP request.
 - **Review**: check validation, authz, and that errors don’t leak secrets.

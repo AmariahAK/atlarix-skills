@@ -11,7 +11,7 @@ We welcome contributors of all skill levels.
 ### 2) What makes a good skill
 A good skill:
 - Solves a **real, recurring** developer problem.
-- Is **tool-aware**: references Atlarix tools where relevant (e.g. `read_file`, `write_file`, `search_code`, Blueprint tools, `db_query`, `db_mutate`, etc.).
+- Is **tool-aware**: references Atlarix tools where relevant (e.g. `read_file`, `write_file`, `edit_file`, `grep`, `glob`, `run_command`, etc.).
 - Is **100–400 lines** (not a cheatsheet, not a textbook).
 - Has a clear, specific **“When to use this skill”** section.
 - Has been tested against **at least one real project** (even a small toy repo).

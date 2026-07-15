@@ -3,7 +3,7 @@ name: Django Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [python, django, backend, api, orm, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -42,7 +42,7 @@ Use this skill when working on Django apps/APIs and you want safe model design, 
 - integration tests for ORM queries and views
 
 ## Atlarix tool notes
-- **Ask**: locate settings, apps, and urls; map core models and their relations.
+- **Explore**: locate settings, apps, and urls; map core models and their relations.
 - **Build**: run `pytest`/`manage.py test`; keep migrations small and reversible.
 - **Debug**: inspect stack traces; reproduce failing query patterns.
 - **Review**: check query count and migration safety.

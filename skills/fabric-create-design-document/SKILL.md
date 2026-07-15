@@ -3,7 +3,7 @@ name: Create Design Document
 version: 1.0.0
 author: Fabric (community)
 tags: [fabric, pattern, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

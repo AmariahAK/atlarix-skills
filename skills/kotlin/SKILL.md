@@ -3,7 +3,7 @@ name: Kotlin Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [kotlin, backend, gradle, coroutines, jvm]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -35,7 +35,7 @@ Rules:
 - integration tests for wiring and persistence
 
 ## Atlarix tool notes
-- **Ask**: detect Gradle Kotlin DSL (`build.gradle.kts`) and locate entry points.
+- **Explore**: detect Gradle Kotlin DSL (`build.gradle.kts`) and locate entry points.
 - **Build**: run `./gradlew test` / `./gradlew build`.
 - **Debug**: follow stack traces; confirm coroutine context + dispatcher usage.
 - **Review**: check null-safety and coroutine cancellation.

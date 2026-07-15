@@ -3,7 +3,7 @@ name: PHP Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [php, backend, composer, laravel, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -42,7 +42,7 @@ Prefer:
 - keep fixtures small and deterministic
 
 ## Atlarix tool notes
-- **Ask**: locate `composer.json`, framework entry points, and configuration.
+- **Explore**: locate `composer.json`, framework entry points, and configuration.
 - **Build**: run `composer install` + the project’s test runner (`phpunit`/pest).
 - **Debug**: read stack traces and confirm config/env.
 - **Review**: check for injection risks and missing validation.

@@ -3,7 +3,7 @@ name: MCP Server Builder
 version: 1.0.0
 author: NorahLabs
 tags: [mcp, tools, integrations, typescript, protocol]
-compatibleModes: [Build, Ask]
+compatibleModes: [Build, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

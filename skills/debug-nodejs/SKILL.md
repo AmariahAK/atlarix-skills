@@ -87,7 +87,7 @@ Avoid “random port hopping” without understanding why the port is busy.
 
 ## Atlarix tool notes
 - In Debug mode, use the terminal tools to reproduce the error and capture the full output.
-- Use `search_code` to locate error strings and catch blocks.
+- Use `grep` to locate error strings and catch blocks.
 - Use small targeted changes; re-run the failing command quickly.
 
 When reporting issues:

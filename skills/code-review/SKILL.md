@@ -76,8 +76,8 @@ Avoid:
 
 ## Atlarix tool notes
 - Use `git diff` and `git log` to understand scope and intent.
-- Use `read_file` + `search_code` to confirm a change doesn’t break callsites.
-- Use Blueprint tools to find entry points and cross-file coupling when reviewing bigger refactors.
+- Use `read_file` + `grep` to confirm a change doesn’t break callsites.
+- Use `grep`/`glob` to find entry points and cross-file coupling when reviewing bigger refactors.
 
 Good reviewer flow:
 1. read PR description (what/why/test plan)

@@ -3,7 +3,7 @@ name: GitHub Actions CI Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [ci, github-actions, workflows, automation, devops]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -45,7 +45,7 @@ When debugging:
 - match Node/Python versions from CI
 
 ## Atlarix tool notes
-- **Ask**: inspect `.github/workflows/*.yml` and identify triggers and permissions.
+- **Explore**: inspect `.github/workflows/*.yml` and identify triggers and permissions.
 - **Build**: implement the minimal change; keep steps explicit.
 - **Review**: check permissions and secrets handling.
 

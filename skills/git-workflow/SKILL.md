@@ -3,7 +3,7 @@ name: Git Workflow
 version: 1.0.0
 author: NorahLabs
 tags: [git, workflow, commits, branching, pr, code-review]
-compatibleModes: [Ask, Build, Plan]
+compatibleModes: [Explore, Build, Plan]
 atlarixMinVersion: "7.0.0"
 ---
 

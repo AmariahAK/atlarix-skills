@@ -3,7 +3,7 @@ name: React Component Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [react, frontend, components, hooks, context, typescript, performance]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -153,5 +153,21 @@ Render props are useful when you want to expose internal state without forcing c
 Prefer hooks first; use render props when you need to interleave layout and control.
 
 ## Atlarix tool notes
-- In **Ask** mode: use `search_code` to find component usage patterns; use `read_file` to inspect existing props and state flow.\n- In **Build** mode: make small, atomic edits with `replace_code` / `insert_code`, then run tests.\n- For large refactors: call Blueprint tools to locate entry points and affected components, then narrow with `get_blueprint_slice`.\n- For UI regressions: use `run_command` (Build mode) to run `vitest`/`playwright` or the project’s test scripts.\n\nWhen reviewing a component, check:\n- prop surface area (can we split?)\n- state ownership (is it in the right place?)\n- effects (are dependencies correct?)\n- accessibility (labels, keyboard, focus)\n\n## Common mistakes to avoid
-- Adding `useMemo`/`useCallback` everywhere “for performance” without measuring\n- Using Context for rapidly changing state and causing app-wide re-renders\n- Creating hooks that return unstable functions/objects without a reason\n- Overusing `any` in props; prefer precise unions and `unknown` where needed\n- Mixing data fetching responsibilities inside presentational components\n+- Hiding complexity in barrels and circular imports\n*** End Patch"}댓글 to=functions.ApplyPatch  重庆时时彩的json to=functions.ApplyPatch code_block
+- In **Explore** mode: use `grep`/`glob` to find component usage patterns; use `read_file` to inspect existing props and state flow.
+- In **Build** mode: make small, atomic edits with `edit_file`, then run tests.
+- For large refactors: use `grep`/`glob` to locate entry points and affected components, then read them with `read_file`.
+- For UI regressions: use `run_command` (Build mode) to run `vitest`/`playwright` or the project’s test scripts.
+
+When reviewing a component, check:
+- prop surface area (can we split?)
+- state ownership (is it in the right place?)
+- effects (are dependencies correct?)
+- accessibility (labels, keyboard, focus)
+
+## Common mistakes to avoid
+- Adding `useMemo`/`useCallback` everywhere “for performance” without measuring
+- Using Context for rapidly changing state and causing app-wide re-renders
+- Creating hooks that return unstable functions/objects without a reason
+- Overusing `any` in props; prefer precise unions and `unknown` where needed
+- Mixing data fetching responsibilities inside presentational components
+- Hiding complexity in barrels and circular imports

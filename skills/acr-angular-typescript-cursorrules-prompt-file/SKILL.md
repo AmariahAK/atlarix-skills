@@ -3,7 +3,7 @@ name: Cursor rules for Angular development with TypeScript integration
 version: 1.0.0
 author: community
 tags: [cursorrules, angular, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

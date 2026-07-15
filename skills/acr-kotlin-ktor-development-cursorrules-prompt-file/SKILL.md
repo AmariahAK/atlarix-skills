@@ -3,7 +3,7 @@ name: Cursor rules for Kotlin development with Ktor integration
 version: 1.0.0
 author: community
 tags: [cursorrules, kotlin, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

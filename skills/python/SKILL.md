@@ -3,7 +3,7 @@ name: Python Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [python, backend, async, typing, packaging, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -119,13 +119,13 @@ Use `__all__` for:
 Avoid `__all__` in internal-only modules unless it improves clarity.
 
 ## Atlarix tool notes
-- **Ask**: use `search_code` to find where types are missing, where sync/async boundaries are crossed, and how modules are structured.
+- **Explore**: use `grep`/`glob` to find where types are missing, where sync/async boundaries are crossed, and how modules are structured.
 - **Build**: add typing and boundary validation incrementally with small edits; run `pytest` and linters if configured.
 - **Debug**: reproduce with minimal input; inspect stack traces for the first application frame; log structured context.
 - **Review**: check correctness at boundaries: input validation, error messages, and that async code doesn’t block.
 
 Tool suggestions:
-- Use Blueprint tools to locate entry points (`main`, CLI commands, web app factories) and follow the call graph.
+- Use `grep`/`glob` to locate entry points (`main`, CLI commands, web app factories) and `read_file` to follow the call graph.
 - Use `run_command` (Build) for `pytest`, `ruff`, and `mypy` when present.
 
 ## Packaging and configuration patterns

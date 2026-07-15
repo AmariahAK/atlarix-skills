@@ -3,7 +3,7 @@ name: Next.js App Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [nextjs, react, fullstack, app-router, server-components, typescript]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -130,7 +130,7 @@ Enforce boundaries:
 ## Atlarix tool notes
 Use Atlarix tools to stay tool-driven and avoid guessing Next.js internals:
 
-- **Ask**: use `search_code` to find route segments, route handlers, server actions, and data fetching patterns; inspect `layout.tsx` boundaries.
+- **Explore**: use `grep`/`glob` to find route segments, route handlers, server actions, and data fetching patterns; inspect `layout.tsx` boundaries.
 - **Build**: use `read_file` + surgical edit tools for small changes, then run the project’s checks (often `next lint`, `vitest`, `playwright`).
 - **Debug**: when you see hydration errors, follow the stack trace to the component path and confirm server/client boundaries.
 - **Review**: check accidental client bundle growth (client components importing large deps) and secret exposure (server-only envs in client code).

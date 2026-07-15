@@ -3,7 +3,7 @@ name: Swift Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [swift, ios, macos, concurrency, swiftpm]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -39,7 +39,7 @@ Prefer:
 - prefer unit tests for pure logic
 
 ## Atlarix tool notes
-- **Ask**: inspect `Package.swift` and target layout.
+- **Explore**: inspect `Package.swift` and target layout.
 - **Build**: run `swift test` or Xcode build scripts depending on project.
 - **Debug**: follow crash logs and stack traces; find the first app frame.
 - **Review**: check concurrency correctness and API clarity.

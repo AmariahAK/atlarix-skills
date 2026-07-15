@@ -3,7 +3,7 @@ name: TypeScript Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [typescript, types, generics, patterns, narrowing, tsconfig]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -144,7 +144,7 @@ If using ESM:
 - avoid mixed CJS/ESM exports in the same package
 
 ## Atlarix tool notes
-- **Ask**: use `search_code` to find `any`/`unknown` boundaries, and track how a value flows through modules.
+- **Explore**: use `grep`/`glob` to find `any`/`unknown` boundaries, and track how a value flows through modules.
 - **Build**: fix types at boundaries first; avoid sprinkling casts. Use surgical edits for minimal diffs.
 - **Review**: require exhaustiveness for important unions (request/response shapes, state machines).
 

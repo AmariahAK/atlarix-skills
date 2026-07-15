@@ -3,7 +3,7 @@ name: Node.js Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [nodejs, backend, typescript, runtime, tooling]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -45,7 +45,7 @@ Services should handle:
 - keep lockfiles committed
 
 ## Atlarix tool notes
-- **Ask**: locate `package.json` scripts, entry points, and config.
+- **Explore**: locate `package.json` scripts, entry points, and config.
 - **Build**: run the project’s test/lint scripts; keep diffs small.
 - **Debug**: reproduce errors in terminal; capture complete stack traces.
 - **Review**: check for missing timeouts and unsafe input handling.

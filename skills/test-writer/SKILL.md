@@ -109,7 +109,14 @@ Use fixtures to reduce duplication:
 - `@pytest.mark.parametrize` for cases
 
 ## Atlarix tool notes
-- **Review**: ask the Reviewer agent to check test coverage for edge cases and error paths.\n- **Build**: use `run_command` to run the smallest test scope first (single file), then full suite.\n- Use `search_code` to find existing test patterns and match conventions.\n\nPractical workflow:\n- Reproduce bug → write failing test → implement fix → watch test pass.\n\n## Common mistakes to avoid
+- **Review**: use Review mode to check test coverage for edge cases and error paths.
+- **Build**: use `run_command` to run the smallest test scope first (single file), then full suite.
+- Use `grep`/`glob` to find existing test patterns and match conventions.
+
+Practical workflow:
+- Reproduce bug → write failing test → implement fix → watch test pass.
+
+## Common mistakes to avoid
 - Tests that assert internal implementation details
 - Over-mocking (mocking every function call)
 - Flaky tests due to time/randomness

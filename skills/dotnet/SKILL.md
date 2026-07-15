@@ -3,7 +3,7 @@ name: .NET Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [dotnet, csharp, backend, aspnet, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -40,7 +40,7 @@ Avoid:
 - avoid over-mocking
 
 ## Atlarix tool notes
-- **Ask**: locate `.sln` / `*.csproj` and startup entry points.
+- **Explore**: locate `.sln` / `*.csproj` and startup entry points.
 - **Build**: run `dotnet test` and `dotnet build`.
 - **Debug**: follow stack traces; check first app frame and DI registration.
 - **Review**: ensure async correctness and cancellation support.

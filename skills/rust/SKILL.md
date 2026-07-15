@@ -3,7 +3,7 @@ name: Rust Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [rust, backend, safety, error-handling, cargo]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -45,7 +45,7 @@ Patterns:
 - avoid relying on global state
 
 ## Atlarix tool notes
-- **Ask**: scan `Cargo.toml` and entry points (`main.rs`, `lib.rs`).
+- **Explore**: scan `Cargo.toml` and entry points (`main.rs`, `lib.rs`).
 - **Build**: run `cargo test` and `cargo clippy` if configured.
 - **Debug**: minimize repro; use feature flags intentionally.
 - **Review**: check error boundaries and public API clarity.

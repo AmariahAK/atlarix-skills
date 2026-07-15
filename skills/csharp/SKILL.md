@@ -3,7 +3,7 @@ name: C# Patterns
 version: 1.0.0
 author: NorahLabs
 tags: [csharp, dotnet, backend, aspnet, testing]
-compatibleModes: [Build, Debug, Review, Ask]
+compatibleModes: [Build, Debug, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 
@@ -34,7 +34,7 @@ Use this skill when working in C# projects (.NET) and you want patterns for asyn
 - integration tests for DB/wiring
 
 ## Atlarix tool notes
-- **Ask**: locate `*.csproj` and key entry points; inspect DI registrations.
+- **Explore**: locate `*.csproj` and key entry points; inspect DI registrations.
 - **Build**: run `dotnet test`.
 - **Debug**: follow the first app frame in stack traces; check DI and config.
 - **Review**: check async/cancellation correctness and error handling.
