@@ -3,7 +3,7 @@ name: Cursor rules for Hashgraph Online development with TypeScript, building AI
 version: 1.0.0
 author: community
 tags: [cursorrules, typescript, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

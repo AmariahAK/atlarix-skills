@@ -3,7 +3,7 @@ name: Cursor rules for Linux development with NVIDIA CUDA and Python integration
 version: 1.0.0
 author: community
 tags: [cursorrules, python, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: 27 architecture rules preventing AI hallucinations: insecure auth (getSess
 version: 1.0.0
 author: community
 tags: [cursorrules, nextjs, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Cursor rules for full-stack SaaS applications on Cloudflare Workers with H
 version: 1.0.0
 author: community
 tags: [cursorrules, angular, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

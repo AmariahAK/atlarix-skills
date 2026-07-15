@@ -3,7 +3,7 @@ name: Modern Fortran rules for scientific computing, modules, explicit interface
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

@@ -3,7 +3,7 @@ name: Guide Cursor to write modern C++ and CMake code with clear structure, RAII
 version: 1.0.0
 author: community
 tags: [cursorrules, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

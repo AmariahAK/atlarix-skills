@@ -3,7 +3,7 @@ name: Cursor rules for Cursor AI development with React, TypeScript, and shadcn/
 version: 1.0.0
 author: community
 tags: [cursorrules, react, community]
-compatibleModes: [Build, Review, Ask]
+compatibleModes: [Build, Review, Explore]
 atlarixMinVersion: "7.0.0"
 ---
 

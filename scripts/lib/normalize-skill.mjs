@@ -1,4 +1,4 @@
-const DEFAULT_MODES = ["Build", "Review", "Ask"];
+const DEFAULT_MODES = ["Build", "Review", "Explore"];
 
 export function slugifyId(input, maxLen = 64) {
   let s = String(input)
