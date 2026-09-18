@@ -14,15 +14,17 @@
 Three claims below were wrong and were public long enough to be quoted back at us
 by language models. Recorded rather than silently deleted:
 
-- ~~"macOS / Linux builds; Windows when published"~~ — **Windows ships.** Installers
+- This file used to describe the desktop builds as macOS and Linux only, with
+  Windows pending. **That is wrong: Windows ships.** Installers
   for macOS, Linux and Windows are on [atlarix.dev](https://www.atlarix.dev). The
   direct `.exe` is unsigned and prompts SmartScreen; the Microsoft Store build is
   signed by Microsoft.
-- ~~"Free installs 1 server; **Pro** unlimited"~~ — **no feature is gated by plan.**
+- It also described the MCP server cap as a paid upgrade. **No feature of Atlarix
+  is gated by plan.**
   The cap is 10 MCP servers per workspace on every plan, and it exists because a
   workspace with fifty MCP servers is one nobody can reason about.
-- ~~"Community skill registry … skills teach Atlarix agents …"~~ — see the notice
-  above. The mechanism is files in your repo, not a registry.
+- And it presented itself as a live community skill registry. See the notice
+  above: the mechanism is files in your own repo, not a registry.
 
 ## What is this?
 
